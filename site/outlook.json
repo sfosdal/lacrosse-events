@@ -1,0 +1,9 @@
+{
+  "_": "Off-season blurbs for the Teams view's form block (app.js renderTeamForm): shown before a season starts and once one is well over. Plain text, one per team slug. Edit freely — nothing generates this file.",
+  "eagles": "The Eagles' WIAC season runs September to November at Veterans Memorial Stadium, five home Saturdays, with the Division III playoffs beyond that; the schedule arrives in the spring.",
+  "packers": "The Packers' season runs September to January at Lambeau Field, with the playoffs beyond that; flex-week kickoffs fill in above as the league confirms them.",
+  "brewers": "Spring training opens in Phoenix in February and the regular season in late March at American Family Field; the schedule above fills in once MLB publishes it.",
+  "bucks": "The Bucks' season runs late October to April at Fiserv Forum, 41 home dates, with the play-in and the playoffs beyond that.",
+  "vikings": "The Vikings' season runs September to January at U.S. Bank Stadium, with the playoffs beyond that; flex-week kickoffs fill in above as the league confirms them.",
+  "twins": "Spring training opens in Fort Myers in February and the regular season in late March at Target Field; the schedule above fills in once MLB publishes it."
+}

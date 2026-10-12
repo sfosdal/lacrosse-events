@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#1b2733"/>
+  <!-- the bluffs over the Mississippi: two ridges in the Eagles' maroon and the river below -->
+  <path d="M3 20 L9 10 L14 16 L19 8 L25 15 L29 11 L29 21 L3 21 Z" fill="#9e3b4a"/>
+  <path d="M3 21 L8 15 L13 19 L18 13 L23 18 L29 14 L29 22 L3 22 Z" fill="#c55a6b"/>
+  <path d="M3 23 Q8 21 13 23 T23 23 T29 23 L29 26 Q24 28 19 26 T9 26 T3 26 Z" fill="#41b6e6"/>
+</svg>
