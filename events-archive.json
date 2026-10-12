@@ -1,0 +1,32 @@
+{
+ "events": [
+  {
+   "venue": "Veterans Memorial Stadium",
+   "title": "UW–La Crosse Eagles vs Hardin-Simmons Cowboys",
+   "date": "2026-09-12",
+   "time": "13:00:00",
+   "url": "https://uwlathletics.com/sports/football/schedule",
+   "type": "sports"
+  },
+  {
+   "venue": "Veterans Memorial Stadium",
+   "title": "UW–La Crosse Eagles vs Wisconsin-Whitewater Warhawks",
+   "date": "2026-10-10",
+   "time": "13:00:00",
+   "url": "https://uwlathletics.com/sports/football/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "WIAC Network"
+    ]
+   }
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "Spirit of the Water",
+   "date": "2026-10-11",
+   "time": "16:30:00",
+   "url": "https://www.universe.com/events/spirit-of-the-water-tickets-BML5KJ?ref=ticketmaster"
+  }
+ ]
+}
