@@ -43,6 +43,16 @@
    "time": "19:00:00",
    "url": "https://www.ticketmaster.com/world-ballet-company-swan-lake-with-rochester-minnesota-10-14-2026/event/0600644674C53EC7",
    "type": "arts"
+  },
+  {
+   "venue": "La Crosse Center",
+   "title": "gymclassheroes. & Lupe Fiasco: Back To Basics Tour",
+   "date": "2026-10-15",
+   "time": "19:15:00",
+   "url": "https://www.ticketmaster.com/gymclassheroes-lupe-fiasco-back-to-basics-la-crosse-wisconsin-10-15-2026/event/070064EE95DB2714",
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-10-12T01:46:27.998Z"
   }
  ]
 }
