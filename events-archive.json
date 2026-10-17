@@ -53,6 +53,29 @@
    "type": "concert",
    "status": "cancelled",
    "statusSince": "2026-10-12T01:46:27.998Z"
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "Spirit of the Water",
+   "date": "2026-10-16",
+   "time": "17:00:00",
+   "url": "https://www.universe.com/events/spirit-of-the-water-tickets-BML5KJ?ref=ticketmaster"
+  },
+  {
+   "venue": "La Crosse Center",
+   "title": "Godsmack: The Rise Of Rock World Tour 2026 ",
+   "date": "2026-10-16",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/godsmack-the-rise-of-rock-world-la-crosse-wisconsin-10-16-2026/event/070064F8BAEB651F",
+   "type": "concert"
+  },
+  {
+   "venue": "Mayo Civic Center",
+   "title": "Hairball Live! presented by Rpba",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/hairball-live-presented-by-rpba-rochester-minnesota-10-16-2026/event/060064D8C648E1AF",
+   "type": "concert"
   }
  ]
 }
