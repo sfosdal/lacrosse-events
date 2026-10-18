@@ -76,6 +76,28 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/hairball-live-presented-by-rpba-rochester-minnesota-10-16-2026/event/060064D8C648E1AF",
    "type": "concert"
+  },
+  {
+   "venue": "Veterans Memorial Stadium",
+   "title": "UW–La Crosse Eagles vs Wisconsin-Stevens Pt Pointers",
+   "date": "2026-10-17",
+   "time": "13:00:00",
+   "url": "https://uwlathletics.com/sports/football/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "WIAC Network"
+    ]
+   }
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "Ron White",
+   "date": "2026-10-17",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/ron-white-welch-minnesota-10-17-2026/event/060064C3E3DBFA8A",
+   "age21": true,
+   "type": "arts"
   }
  ]
 }
