@@ -21,6 +21,7 @@ import { fixLinks } from './links.mjs';
 import { calmTitle, isNotice } from './titles.mjs';
 import { applySchedules } from './schedules.mjs';
 import { slugify, BADGE_FEEDS, TEAMS, CITY } from './badges.mjs';
+import { tmFetch } from './tm-fetch.mjs';
 
 const JSON_OUT = new URL('../site/events.json', import.meta.url);
 const ICS_OUT = new URL('../site/events.ics', import.meta.url);
@@ -84,17 +85,13 @@ function keepPrimary(rows) {
   const primaryDates = new Set(rows.filter((e) => !isResale(e)).map((e) => e.dates?.start?.localDate));
   return rows.filter((e) => !isResale(e) || !primaryDates.has(e.dates?.start?.localDate));
 }
-let tmNext = 0; // when the next Ticketmaster call may go out
-async function tmPace() { const wait = tmNext - Date.now(); tmNext = Math.max(Date.now(), tmNext) + 1000; if (wait > 0) await new Promise((r) => setTimeout(r, wait)); }
 async function tmPages(params, label) {
   const key = process.env.TICKETMASTER_API_KEY;
   if (!key) { console.warn('No TICKETMASTER_API_KEY set — skipping Ticketmaster.'); return []; }
   const all = [];
   for (let page = 0; page < 5; page++) {
     const q = new URLSearchParams({ apikey: key, sort: 'date,asc', size: '200', page: String(page), ...params });
-    await tmPace(); // one call a second across the run — the family of sites shares the key
-    let res = await fetch(`https://app.ticketmaster.com/discovery/v2/events.json?${q}`);
-    for (let tries = 0; res.status === 429 && tries < 5; tries++) { await new Promise((r) => setTimeout(r, 5000)); await tmPace(); res = await fetch(`https://app.ticketmaster.com/discovery/v2/events.json?${q}`); }
+    const res = await tmFetch(`https://app.ticketmaster.com/discovery/v2/events.json?${q}`);
     if (!res.ok) { console.error(`Ticketmaster ${label} page ${page} HTTP ${res.status}`); break; }
     const data = await res.json();
     all.push(...(data?._embedded?.events || []));
