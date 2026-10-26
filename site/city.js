@@ -200,10 +200,10 @@
   // The words the page uses for the place
   var WORDS = {
     teamCity: 'La Crosse', // the board drops it from the clubs' names
-    presetDefault: 'Every room — the La Crosse Center, the Cavalier, the Eagles and the regional rooms a drive away — every team and type',
+    presetDefault: 'Every venue — the La Crosse Center, the Cavalier, the Eagles and the regional venues a drive away — every team and type',
     presetNeighborhood: 'La Crosse only',
     presetBig: 'Only the places that hold 2,000 or more — the La Crosse Center, Mayo Civic Center and Treasure Island',
-    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing La Crosse only.', big: 'Showing the big rooms only — the La Crosse Center, Mayo Civic Center and Treasure Island.' },
+    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing La Crosse only.', big: 'Showing the big venues only — the La Crosse Center, Mayo Civic Center and Treasure Island.' },
   };
 
   global.LQACity = {
