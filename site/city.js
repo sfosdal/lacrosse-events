@@ -91,6 +91,7 @@
   var VENUES = {
     // --- La Crosse: the arena, the downtown theatre, the campus stadium ---
     'La Crosse Center': {
+      geo: [43.81224, -91.25567],
       capacity: 7500,
       type: 'concert',
       cssVar: '--v-lcc',
@@ -101,6 +102,7 @@
       alias: /la ?crosse center/i,
     },
     'Cavalier Theater': {
+      geo: [43.81229, -91.24912],
       capacity: 500,
       type: 'concert',
       cssVar: '--v-cavalier',
@@ -111,6 +113,7 @@
       alias: /cavalier theat/i,
     },
     'Veterans Memorial Stadium': { // the Eagles' home field — games arrive from ESPN's schedule (city.js inject), not a ticket feed
+      geo: [43.81616, -91.22728],
       capacity: 7000,
       type: 'sports',
       cssVar: '--v-vets',
@@ -215,6 +218,16 @@
     ics: { name: 'La Crosse Events', short: 'La Crosse Events', teams: 'La Crosse home teams — every season', prodid: '-//here.events//lacrosse-events//EN', uidDomain: 'fosdal.net', // the UID domain the whole family issues (the shared ics test pins it)
       desc: 'Upcoming events around La Crosse\\, WI — the La Crosse Center\\, the Cavalier Theater\\, the Eagles and the regional rooms' },
     teams: TEAMS,
+    map: { // the Map view (local-map.js; the ground drawn once by scripts/build-local-map.mjs from OpenStreetMap, committed as site/local-map.json) — every city gets one, Steve, 2026-10-26
+      kind: 'urban',
+      bbox: [43.754, -91.366, 43.874, -91.117], // south, west, north, east — every room, with a margin
+      home: [43.799, -91.273, 43.829, -91.21], // the view at first: the city's own rooms; the fit button shows the whole frame
+      roads: ['motorway', 'trunk', 'primary'],
+      tolerance: 0.6,
+      labels: [
+        { name: 'La Crosse', lat: 43.801, lon: -91.24, anchor: 'middle' },
+      ],
+    },
     venues: VENUES,
     defaultOn: DEFAULT_ON,
     defaultOff: DEFAULT_OFF,
