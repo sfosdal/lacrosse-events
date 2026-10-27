@@ -137,6 +137,13 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/fool-house-ultimate-90s-party-wow-la-crosse-wisconsin-10-24-2026/event/070064FBD7CF5AA2",
    "type": "concert"
+  },
+  {
+   "venue": "RCU Theatre",
+   "title": "Outlander in Concert",
+   "date": "2026-10-26",
+   "time": "19:00:00",
+   "url": "https://www.pablocenter.org/events/"
   }
  ]
 }
