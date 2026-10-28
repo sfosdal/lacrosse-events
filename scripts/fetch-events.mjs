@@ -114,7 +114,7 @@ async function ticketmasterVenue({ venueIds, venueMatch, label, fallbackUrl, exc
 // two leads — the box office with the richer rows — and the other is SECONDARY (city.js
 // `tm.secondary` / `feed.secondary`): read after everything else and kept only where nothing
 // already sits at that venue on that date with the same clock or title (merge.mjs dropClashes).
-const tmVenue = ([label, v]) => () => ticketmasterVenue({ venueId: v.tm.id, venueMatch: v.tm.match, label, fallbackUrl: v.tm.fallbackUrl, exclude: v.tm.exclude });
+const tmVenue = ([label, v]) => () => ticketmasterVenue({ venueIds: v.tm.ids || [v.tm.id], venueMatch: v.tm.match, label, fallbackUrl: v.tm.fallbackUrl, exclude: v.tm.exclude });
 const ticketmasterRooms = Object.entries(CITY.venues).filter(([, v]) => v.tm && !v.tm.secondary).map(tmVenue);
 const ticketmasterSecond = Object.entries(CITY.venues).filter(([, v]) => v.tm && v.tm.secondary).map(tmVenue);
 const splitVenues = (keep) => Object.fromEntries(Object.entries(CITY.venues).filter(([, v]) => keep(v)));
