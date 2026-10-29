@@ -13,6 +13,7 @@
  * other clubs' seasons feed the Teams view only. Calls are paced at a
  * second apart: the whole family of sites shares one key.
  */
+import './failures.mjs'; // first: every outside call retried, the ones still failing written to failures.json (Steve, 2026-10-29)
 import { writeFileSync, readFileSync } from 'node:fs';
 import { buildIcs } from './ics.mjs';
 import { isChurch } from './sources.mjs';
