@@ -124,6 +124,7 @@
     },
     // --- Around the region (`area: 'town'`): Rochester's civic center, the Treasure Island casino, Eau Claire's theatre, the Ho-Chunk casino ---
     'Mayo Civic Center': { // Rochester, MN — the auditorium, the presentation hall and the arena are three Ticketmaster venues
+      geo: [44.02245, -92.45871], // Rochester, MN (Nominatim, 2026-11-01)
       area: 'town',
       capacity: 7200,
       type: 'concert',
@@ -135,6 +136,7 @@
       alias: /mayo civic center|mayo presentation hall/i,
     },
     'Treasure Island Resort & Casino': { // Welch, MN
+      geo: [44.63336, -92.64894], // Welch, MN (Photon, by name, 2026-11-01)
       area: 'town',
       capacity: 2800,
       type: 'concert',
@@ -146,6 +148,7 @@
       alias: /treasure island (?:resort|amphitheater)/i,
     },
     'RCU Theatre': { // Eau Claire, in the Pablo Center
+      geo: [44.81169, -91.50137], // 128 Graham Ave, Eau Claire (Nominatim, 2026-11-01)
       area: 'town',
       capacity: 1200,
       type: 'arts',
@@ -157,6 +160,7 @@
       alias: /rcu theat|pablo center/i,
     },
     'Ho-Chunk Gaming Black River Falls': {
+      geo: [44.3288, -90.76817], // Black River Falls, WI (Nominatim, 2026-11-01)
       area: 'town',
       capacity: 1000,
       type: 'concert',
@@ -220,12 +224,15 @@
     teams: TEAMS,
     map: { // the Map view (local-map.js; the ground drawn once by scripts/build-local-map.mjs from OpenStreetMap, committed as site/local-map.json) — every city gets one, Steve, 2026-10-26
       kind: 'urban',
-      bbox: [43.754, -91.366, 43.874, -91.117], // south, west, north, east — every room, with a margin
+      bbox: [43.7, -92.8, 44.92, -90.6], // south, west, north, east — every venue, with a margin: Rochester, Welch, Eau Claire and Black River Falls too (2026-11-01, Steve: pin the far venues, open on the city)
       home: [43.799, -91.273, 43.829, -91.21], // the view at first: the city's own rooms; the fit button shows the whole frame
       roads: ['motorway', 'trunk', 'primary'],
-      tolerance: 0.6,
+      tolerance: 1.2,
       labels: [
         { name: 'La Crosse', lat: 43.801, lon: -91.24, anchor: 'middle' },
+        { name: 'Rochester', lat: 44.0121, lon: -92.4802, anchor: 'end' },
+        { name: 'Eau Claire', lat: 44.8113, lon: -91.4985, anchor: 'start' },
+        { name: 'Black River Falls', lat: 44.2947, lon: -90.8515, anchor: 'end' },
       ],
     },
     venues: VENUES,
