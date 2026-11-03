@@ -224,6 +224,7 @@
     teams: TEAMS,
     map: { // the Map view (local-map.js; the ground drawn once by scripts/build-local-map.mjs from OpenStreetMap, committed as site/local-map.json) — every city gets one, Steve, 2026-10-26
       kind: 'urban',
+      boundary: { osm: 251414 }, // the city line, always drawn (Steve, 2026-11-02): OpenStreetMap's boundary relation for La Crosse
       bbox: [43.7, -92.8, 44.92, -90.6], // south, west, north, east — every venue, with a margin: Rochester, Welch, Eau Claire and Black River Falls too (2026-11-01, Steve: pin the far venues, open on the city)
       home: [43.799, -91.273, 43.829, -91.21], // the view at first: the city's own rooms; the fit button shows the whole frame
       roads: ['motorway', 'trunk', 'primary'],
