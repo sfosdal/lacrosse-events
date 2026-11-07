@@ -182,6 +182,31 @@
    "time": "18:00:00",
    "url": "https://www.ticketmaster.com/mshsl-2026-section-1a-1aa-girls-rochester-minnesota-11-05-2026/event/0600655D944756CC",
    "type": "sports"
+  },
+  {
+   "venue": "La Crosse Center",
+   "title": "Professional Championship Bull Riding",
+   "date": "2026-11-06",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/professional-championship-bull-riding-la-crosse-wisconsin-11-06-2026/event/070064EFCCD65D09",
+   "type": "sports"
+  },
+  {
+   "venue": "Mayo Civic Center",
+   "title": "An Evening of Alton Brown",
+   "date": "2026-11-06",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/an-evening-of-alton-brown-rochester-minnesota-11-06-2026/event/060064AFA694E558",
+   "type": "arts"
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "Styx",
+   "date": "2026-11-06",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/styx-welch-minnesota-11-06-2026/event/060064F71A9DDDC8",
+   "age21": true,
+   "type": "concert"
   }
  ]
 }
