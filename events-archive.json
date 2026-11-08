@@ -207,6 +207,52 @@
    "url": "https://www.ticketmaster.com/styx-welch-minnesota-11-06-2026/event/060064F71A9DDDC8",
    "age21": true,
    "type": "concert"
+  },
+  {
+   "venue": "Mayo Civic Center",
+   "title": "Mshsl 2026 Section 1A & 1AA Girls Volleyball Finals",
+   "date": "2026-11-07",
+   "time": "10:00:00",
+   "url": "https://www.ticketmaster.com/mshsl-2026-section-1a-1aa-girls-rochester-minnesota-11-07-2026/event/0600655D97A65BC2",
+   "type": "sports"
+  },
+  {
+   "venue": "Veterans Memorial Stadium",
+   "title": "UW–La Crosse Eagles vs Wisconsin River Falls Falcons",
+   "date": "2026-11-07",
+   "time": "13:00:00",
+   "url": "https://uwlathletics.com/sports/football/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "WIAC Network"
+    ]
+   }
+  },
+  {
+   "venue": "Mayo Civic Center",
+   "title": "Mshsl 2026 Section 1Aaa Girls Volleyball Finals",
+   "date": "2026-11-07",
+   "time": "14:00:00",
+   "url": "https://www.ticketmaster.com/mshsl-2026-section-1aaa-girls-volleyball-rochester-minnesota-11-07-2026/event/0600655D97B35BCF",
+   "type": "sports"
+  },
+  {
+   "venue": "La Crosse Center",
+   "title": "Professional Championship Bull Riding",
+   "date": "2026-11-07",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/professional-championship-bull-riding-la-crosse-wisconsin-11-07-2026/event/070064EFCC945CC0",
+   "type": "sports"
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "Sawyer Brown \"The Boys And Me Live\" Tour",
+   "date": "2026-11-07",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/sawyer-brown-the-boys-and-me-welch-minnesota-11-07-2026/event/060064F005D0C350",
+   "age21": true,
+   "type": "concert"
   }
  ]
 }
