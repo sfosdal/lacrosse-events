@@ -253,6 +253,14 @@
    "url": "https://www.ticketmaster.com/sawyer-brown-the-boys-and-me-welch-minnesota-11-07-2026/event/060064F005D0C350",
    "age21": true,
    "type": "concert"
+  },
+  {
+   "venue": "RCU Theatre",
+   "title": "Golden Girls: The Laughs Continue",
+   "date": "2026-11-08",
+   "time": "14:00:00",
+   "url": "https://www.pablocenter.org/events/",
+   "type": "arts"
   }
  ]
 }
