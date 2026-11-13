@@ -261,6 +261,15 @@
    "time": "14:00:00",
    "url": "https://www.pablocenter.org/events/",
    "type": "arts"
+  },
+  {
+   "venue": "Mayo Civic Center",
+   "title": "Nurse Blake: But Did You Die? Tour",
+   "date": "2026-11-12",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/nurse-blake-but-did-you-die-rochester-minnesota-11-12-2026/event/0600648AC9B9AEA1",
+   "age21": true,
+   "type": "arts"
   }
  ]
 }
