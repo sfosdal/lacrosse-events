@@ -1,12 +1,11 @@
 {
  "links": {
-  "http://www.kingcenter.com/": "2026-11-11",
-  "https://ho-chunkgaming.com/": "2026-11-11",
-  "https://uwlathletics.com/sports/football/schedule": "2026-11-11",
-  "https://www.lacrossecenter.com/": "2026-11-11",
-  "https://www.mayociviccenter.com/events": "2026-11-11",
-  "https://www.pablocenter.org/events/": "2026-11-11",
-  "https://www.ticasino.com/events": "2026-11-11"
+  "http://www.kingcenter.com/": "2026-11-14",
+  "https://uwlathletics.com/sports/football/schedule": "2026-11-14",
+  "https://www.lacrossecenter.com/": "2026-11-14",
+  "https://www.mayociviccenter.com/events": "2026-11-14",
+  "https://www.pablocenter.org/events/": "2026-11-14",
+  "https://www.ticasino.com/events": "2026-11-14"
  },
  "guard": {
   "http://www.kingcenter.com/": "2026-11-11",

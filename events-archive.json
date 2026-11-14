@@ -270,6 +270,32 @@
    "url": "https://www.ticketmaster.com/nurse-blake-but-did-you-die-rochester-minnesota-11-12-2026/event/0600648AC9B9AEA1",
    "age21": true,
    "type": "arts"
+  },
+  {
+   "venue": "Mayo Civic Center",
+   "title": "Crowder",
+   "date": "2026-11-13",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/crowder-rochester-minnesota-11-13-2026/event/0600652EC41FB3F1",
+   "type": "concert"
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "Peter Antoniou",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/peter-antoniou-welch-minnesota-11-13-2026/event/06006506ECC05D68",
+   "age21": true,
+   "type": "arts"
+  },
+  {
+   "venue": "Ho-Chunk Gaming Black River Falls",
+   "title": "Neal McCoy",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/neal-mccoy-black-river-falls-wisconsin-11-13-2026/event/070064EED701590A",
+   "age21": true,
+   "type": "concert"
   }
  ]
 }
