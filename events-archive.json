@@ -296,6 +296,19 @@
    "url": "https://www.ticketmaster.com/neal-mccoy-black-river-falls-wisconsin-11-13-2026/event/070064EED701590A",
    "age21": true,
    "type": "concert"
+  },
+  {
+   "venue": "Veterans Memorial Stadium",
+   "title": "UW–La Crosse Eagles vs Wisconsin Platteville Pioneers",
+   "date": "2026-11-14",
+   "time": "12:00:00",
+   "url": "https://uwlathletics.com/sports/football/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "WIAC Network"
+    ]
+   }
   }
  ]
 }
