@@ -355,6 +355,46 @@
     "checked": "2026-11-17T00:13:36.888Z",
     "from": 44.65
    }
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "Splash Bash Birthday Package",
+   "date": "2026-11-19",
+   "time": "17:30:00",
+   "url": "https://www.universe.com/events/splash-bash-birthday-package-tickets-YD1TV9?ref=ticketmaster",
+   "type": "sports"
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "21+ Reserved Luxury Seating",
+   "date": "2026-11-19",
+   "time": "17:30:00",
+   "url": "https://www.universe.com/events/21-reserved-luxury-seating-tickets-7NV451?ref=ticketmaster",
+   "type": "sports"
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "Reserved Luxury Seating",
+   "date": "2026-11-19",
+   "time": "17:30:00",
+   "url": "https://www.universe.com/events/reserved-luxury-seating-tickets-4RJ82Z?ref=ticketmaster",
+   "type": "sports"
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "Cabana Seating",
+   "date": "2026-11-19",
+   "time": "17:30:00",
+   "url": "https://www.universe.com/events/cabana-seating-tickets-PFX45H?ref=ticketmaster",
+   "type": "sports"
+  },
+  {
+   "venue": "Mayo Civic Center",
+   "title": "Nurse John: Against Medical Advice Tour",
+   "date": "2026-11-19",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/nurse-john-against-medical-advice-tour-rochester-minnesota-11-19-2026/event/060064A79DB7C7C8",
+   "type": "arts"
   }
  ]
 }
