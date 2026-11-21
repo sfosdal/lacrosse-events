@@ -395,6 +395,61 @@
    "time": "19:30:00",
    "url": "https://www.ticketmaster.com/nurse-john-against-medical-advice-tour-rochester-minnesota-11-19-2026/event/060064A79DB7C7C8",
    "type": "arts"
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "Splash Bash Birthday Package",
+   "date": "2026-11-20",
+   "time": "17:30:00",
+   "url": "https://www.universe.com/events/splash-bash-birthday-package-tickets-YD1TV9?ref=ticketmaster",
+   "type": "sports"
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "21+ Reserved Luxury Seating",
+   "date": "2026-11-20",
+   "time": "17:30:00",
+   "url": "https://www.universe.com/events/21-reserved-luxury-seating-tickets-7NV451?ref=ticketmaster",
+   "type": "sports"
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "Reserved Luxury Seating",
+   "date": "2026-11-20",
+   "time": "17:30:00",
+   "url": "https://www.universe.com/events/reserved-luxury-seating-tickets-4RJ82Z?ref=ticketmaster",
+   "type": "sports"
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "Cabana Seating",
+   "date": "2026-11-20",
+   "time": "17:30:00",
+   "url": "https://www.universe.com/events/cabana-seating-tickets-PFX45H?ref=ticketmaster",
+   "type": "sports"
+  },
+  {
+   "venue": "Mayo Civic Center",
+   "title": "The Wood Brothers",
+   "date": "2026-11-20",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/the-wood-brothers-rochester-minnesota-11-20-2026/event/060064FCA1DDAF5D",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:40:52.617Z",
+    "from": 57.2
+   }
+  },
+  {
+   "venue": "Treasure Island Resort & Casino",
+   "title": "Roots and Boots - 90's Electric Throwdown",
+   "date": "2026-11-20",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/roots-and-boots-90s-electric-throwdown-welch-minnesota-11-20-2026/event/0600650DEF2B22EC",
+   "age21": true,
+   "type": "concert"
   }
  ]
 }
