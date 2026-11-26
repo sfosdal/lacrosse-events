@@ -1,10 +1,10 @@
 {
  "links": {
-  "http://www.kingcenter.com/": "2026-11-23",
-  "https://www.lacrossecenter.com/": "2026-11-23",
-  "https://www.mayociviccenter.com/events": "2026-11-23",
-  "https://www.pablocenter.org/events/": "2026-11-23",
-  "https://www.ticasino.com/events": "2026-11-23"
+  "http://www.kingcenter.com/": "2026-11-26",
+  "https://www.lacrossecenter.com/": "2026-11-26",
+  "https://www.mayociviccenter.com/events": "2026-11-26",
+  "https://www.pablocenter.org/events/": "2026-11-26",
+  "https://www.ticasino.com/events": "2026-11-26"
  },
  "guard": {
   "http://www.kingcenter.com/": "2026-11-23",
